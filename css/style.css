@@ -28,26 +28,39 @@
 /* Fonts */
 
 /* cuprum-regular - latin_cyrillic */
+
 @font-face {
    font-family: 'Cuprum';
    font-style: normal;
    font-weight: 400;
-   src: local('Cuprum'),
+   src: local(''),
         url('../fonts/cuprum-v13-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/cuprum-v13-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
  }
 
  /* cuprum-700 - latin_cyrillic */
+
  @font-face {
    font-family: 'Cuprum';
    font-style: normal;
    font-weight: 700;
-   src: local('Cuprum'),
+   src: local(''),
         url('../fonts/cuprum-v13-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/cuprum-v13-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
  }
 
+ /* cuprum-italic - latin_cyrillic */
+ @font-face {
+   font-family: 'Cuprum';
+   font-style: italic;
+   font-weight: 400;
+   src: local(''),
+        url('../fonts/cuprum-v13-latin_cyrillic-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/cuprum-v13-latin_cyrillic-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
  /* pt-sans-regular - latin_cyrillic */
+
 @font-face {
    font-family: 'PT Sans';
    font-style: normal;
@@ -58,6 +71,7 @@
  }
 
  /* pt-sans-700 - latin_cyrillic */
+
  @font-face {
    font-family: 'PT Sans';
    font-style: normal;
@@ -88,6 +102,7 @@
     font-size: 18px;
     font-weight: 400; 
     line-height: 24px;
+    font-style: normal;
  }
 
  /* Main-header */
@@ -108,7 +123,160 @@
 
  .first-wrapper a {
    text-decoration: none;
+   color: var(--basic-white);
 }
+
+.header-logo {
+}
+
+.header-search {
+
+}
+
+.icon-search {
+}
+.text-search {
+   color: var(--basic-white);
+}
+.label-search {
+}
+.input-search {
+}
+.bookmarks {
+}
+.basket {
+}
+.orders {
+}
+
+.second-header {
+   width: 940px;
+   margin: 0 auto;
+   display: flex;
+}
+
+.about-shop {
+   color: var(--basic-red);
+   font-family: "Cuprum", sans-serif;
+   font-size: 16px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 23px;
+}
+
+.tel-address {
+
+}
+
+.tel {
+   font-family: "Cuprum", sans-serif;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 30px;
+   text-decoration: none;
+   color: var(--basic-red);
+}
+.address {
+   font-family: "Cuprum", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   color: var(--basic-grey);
+}
+
+.enter-profile a{
+   text-decoration: none;
+   color: black;
+   font-family: "Cuprum", sans-serif;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 21px;
+}
+
+.enter {
+}
+.profile {
+}
+
+.main-navigation {
+   width: 940px;
+   margin: 0 auto;
+   display: flex;
+}
+
+.link-navigation {
+   text-decoration: none;
+   color: var(--basic-red);
+}
+
+.section-offers {
+   width: 940px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.offers {
+   background-color: var(--special-yellow);
+}
+.offers__heading {
+   font-family: "Cuprum", sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 30px;
+   color: #fff;
+}
+
+.offers__bigheading {
+   font-family: "Cuprum", sans-serif;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 36px;
+   color: var(--basic-white);
+}
+
+.offers__link {
+   text-decoration: none;
+   font-family: "Cuprum", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+}
+
+.offers__cataloglink {
+   font-family: "Cuprum", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+   color: var(--basic-white);
+   text-decoration: none;
+}
+
+.offers__img {
+   
+}
+
+.offers__subtitle {
+   font-family: "Cuprum", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+   color: var(--basic-white);
+}
+.offers__pointer {
+}
+
+
 
 
  
