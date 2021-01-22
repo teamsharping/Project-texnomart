@@ -1,1 +1,114 @@
+/* Mines margin and padding on all page */
 
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* Basic color */
+
+:root {
+   --basic-red: #EE3643;
+   --basic-green: #63A63E;
+   --basic-grey: #3D546F;
+   --basic-grey-light: #C5C5C5;
+   --basic-background: #F1F5F7;
+   --basic-white: #F1F5F7;
+   --special-yellow: #FFBF47;
+   --special-blue: #3BBCE3;
+   --special-lilac: #DC91D8;
+   --special-greenlight: #8ED78F;
+   --special-yellowlight: #FFD180;
+   --special-greylight: #EAEAEA;
+   --success: #5FBB2D;
+   --warning: #FFBF47;
+   --error: #BA2732;
+}
+
+/* Fonts */
+
+/* cuprum-regular - latin_cyrillic */
+@font-face {
+   font-family: 'Cuprum';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Cuprum'),
+        url('../fonts/cuprum-v13-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/cuprum-v13-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
+ /* cuprum-700 - latin_cyrillic */
+ @font-face {
+   font-family: 'Cuprum';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Cuprum'),
+        url('../fonts/cuprum-v13-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/cuprum-v13-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
+ /* pt-sans-regular - latin_cyrillic */
+@font-face {
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+        url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
+ /* pt-sans-700 - latin_cyrillic */
+ @font-face {
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+        url('../fonts/pt-sans-v12-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/pt-sans-v12-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
+/* Visually hidden */
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+
+ /* Main-body */
+
+ .main-body {
+    min-width: 960px;
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    font-weight: 400; 
+    line-height: 24px;
+ }
+
+ /* Main-header */
+
+ .main-header {
+    background-color: #F3F7F9;
+ }
+
+ .first-header {
+    background-color: #293449;
+ }
+
+ .first-wrapper {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .first-wrapper a {
+   text-decoration: none;
+}
+
+
+ 
