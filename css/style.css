@@ -1138,6 +1138,8 @@
 
 .footer-background-two {
    background-color: #293449;
+   padding-top: 36px;
+   padding-bottom: 34px;
 }
 .wrapper-footer-two {
    display: flex;
@@ -1146,9 +1148,12 @@
 }
 .copyright {
    color: #fff;
+   margin-right: 161px;
 }
 .social-list {
    list-style: none;
+   display: flex;
+   margin-right: 118px;
 }
 .social-item {
 }
@@ -1158,18 +1163,58 @@
 }
 
 .social-link-vk {
+   display: inline-block;
+   width: 44px;
+   height: 44px;
+   background-image: url(/image/Svg/vk-blue.svg);
 }
+
+.social-link-vk:hover {
+   background-image: url(/image/Svg/vk-red.svg);
+}
+
+.social-link-vk:active {
+   background-image: url(/image/Svg/vk-red.svg);
+}
+
 .social-link-fc {
+   display: inline-block;
+   width: 44px;
+   height: 44px;
+   background-image: url(/image/Svg/fc-blue.svg);
 }
+
+.social-link-fc:hover {
+   background-image: url(/image/Svg/fc-red.svg);
+}
+
+.social-link-fc:active {
+   background-image: url(/image/Svg/fc-red.svg);
+}
+
 .social-link-in {
+   display: inline-block;
+   width: 44px;
+   height: 44px;
+   background-image: url(/image/Svg/inst-blue.svg);
 }
+
+.social-link-in:hover {
+   background-image: url(/image/Svg/inst-red.svg);
+}
+
+.social-link-in:active {
+   background-image: url(/image/Svg/inst-red.svg);
+}
+
 .feedback-wrapper {
    display: flex;
 }
 .feedback-block {
+   margin-right: 40px;
 }
 .feedback-block__text {
-   color: var(--basic-grey);
+   color: var(--basic-white);
    font-family: "Cuprum", sans-serif;
    font-size: 16px;
    font-style: normal;
@@ -1185,10 +1230,20 @@
    font-weight: 400;
    line-height: 18px;
 }
+
+.feedback-block__link:hover {
+   text-decoration: underline;
+}
+
+.feedback-block__link:active {
+   text-decoration: none;
+   color: var(--basic-red);
+}
+
 .feedback-block-two {
 }
 .block-two__text {
-   color: var(--basic-grey);
+   color: var(--basic-white);
    font-family: "Cuprum", sans-serif;
    font-size: 16px;
    font-style: normal;
@@ -1203,4 +1258,13 @@
    font-style: normal;
    font-weight: 400;
    line-height: 18px;
+}
+
+.block-two__link:hover {
+   text-decoration: underline;
+}
+
+.block-two__link:active {
+   text-decoration: none;
+   color: var(--basic-red);
 }
