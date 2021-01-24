@@ -119,6 +119,7 @@
     width: 940px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 41px;
  }
 
  .first-wrapper a {
@@ -128,23 +129,91 @@
 
 .header-logo {
    background-color: var(--basic-red);
+   width: 220px;
+   height: 42px;
+   background-image: url(/image/Png/logo-technomart.png);
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   margin-right: 17px;
+}
+
+.header-logo:hover {
+   background-color: #CA2C37;
+}
+
+.header-logo:active {
+   background-color: #BA2732;
 }
 
 .header-search {
 }
 
 .icon-search {
+   background-image: url(/image/Svg/icon-search-grey.svg);
+   background-repeat: no-repeat;
+   background-position: 0 30%;
+   padding-left: 25px;
+   position: relative;
+   top: 9px;
 }
+
+.icon-search:hover {
+   background-image: url(/image/Svg/icon-search-white.svg);
+}
+
+.icon-search:active {
+   background-image: url(/image/Svg/icon-search-grey.svg);
+}
+
 .text-search {
    color: var(--basic-white);
 }
 .label-search {
 }
 .input-search {
+   position: relative;
+   top: 9px;
+   margin-left: 10px;
+   margin-right: 21px;
 }
 .bookmarks {
+   background-image: url(/image/Svg/icon-bookmark-grey.svg);
+   background-repeat: no-repeat;
+   background-position: 14% 47%;
+   padding-left: 43px;
+   padding-right: 24px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   display: inline-block;
 }
+
+.bookmarks:hover {
+   background-image: url(/image/Svg/icon-bookmark-white.svg);
+}
+
+.bookmarks:active {
+   background-image: url(/image/Svg/icon-bookmark-grey.svg);
+   background-color: #161D29;
+}
+
 .basket {
+   background-image: url(/image/Svg/icon-cart-grey.svg);
+   background-repeat: no-repeat;
+   background-position: 15% 48%;
+   padding-left: 43px;
+   padding-right: 24px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   display: inline-block;
+}
+
+.basket:hover {
+   background-image: url(/image/Svg/icon-cart-white.svg);
+}
+
+.basket:active {
+   background-image: url(/image/Svg/icon-cart-grey.svg);
+   background-color: #161D29;
 }
 
 .basket-red {
@@ -153,12 +222,28 @@
 
 .orders {
    background-color: var(--basic-green);
+   padding-left: 19px;
+   padding-right: 16px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   display: inline-block;
+   opacity: 1;
+}
+
+.orders:hover {
+   background-color: #5FBB2D;
+}
+
+.orders:active {
+   background-color: #63A63E;
+   opacity: 0.7;
 }
 
 .second-header {
    width: 940px;
    margin: 0 auto;
    display: flex;
+   margin-bottom: 40px;
 }
 
 .about-shop {
@@ -168,10 +253,14 @@
    font-style: italic;
    font-weight: 400;
    line-height: 23px;
+   margin-left: 30px;
+   margin-right: 93px;
 }
 
 .tel-address {
-
+  text-align: center;
+  margin-right: 69px;
+  margin-top: 3px;
 }
 
 .tel {
@@ -182,8 +271,17 @@
    line-height: 30px;
    text-decoration: none;
    color: var(--basic-red);
+   padding-top: 4px;
+   padding-bottom: 5px;
+   padding-right: 45px;
+   padding-left: 74px;
    outline: 2px solid #fff;
+   display: inline-block;
+   background-image: url(/image/Svg/icon-phone.svg);
+   background-repeat: no-repeat;
+   background-position: 15% 45%;
 }
+
 .address {
    font-family: "Cuprum", sans-serif;
    font-size: 14px;
@@ -191,6 +289,11 @@
    font-weight: 400;
    line-height: 24px;
    color: var(--basic-grey);
+   margin-top: 3px;
+}
+
+.enter-profile {
+   margin-top: 14px;
 }
 
 .enter-profile a{
@@ -201,20 +304,48 @@
    font-style: normal;
    font-weight: 400;
    line-height: 21px;
+   text-align: center;
 }
 
 .enter {
-   text-align: center;
    background-color: #fff;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-right: 27px;
+   padding-left: 45px;
+   background-image: url(/image/Svg/icon-login-grey.svg);
+   background-repeat: no-repeat;
+   background-position: 18% 50%;
+}
+
+.enter:hover {
+   background-image: url(/image/Svg/icon-login-blue.svg);
+   color: var(--basic-red);
+   background-repeat: no-repeat;
+   background-position: 18% 50%;
+}
+
+.enter:active {
+   background-image: url(/image/Svg/icon-login-grey.svg);
+   color: #C5C5C5;
+   background-repeat: no-repeat;
+   background-position: 18% 50%;
 }
 
 .profile {
-   text-align: center;
    background-color: #fff;
+   padding: 12px 24px;
+   margin-left: 8px;
 }
 
-.profile {
+.profile:hover {
+   color: var(--basic-red);
 }
+
+.profile:active {
+   color: #C5C5C5;
+}
+
 .profile__wrapper {
 }
 .profile__name {
@@ -255,10 +386,30 @@
    background-color: var(--basic-grey);
 }
 
+.navig-wrapper {
+   padding-bottom: 60px;
+}
+
 .link-navigation {
    text-decoration: none;
    color: #fff;
    background-color: var(--basic-grey);
+   padding-top: 16px;
+   padding-bottom: 20px;
+   padding-right: 24px;
+   padding-left: 27px;
+}
+
+.link-navigation:hover {
+   background-color: #293449;
+}
+
+.link-navigation:active {
+   background-color: #1D2739;
+}
+
+.link-navigation:first-child {
+   margin-left: 43px;
 }
 
 /* Section-offers */
